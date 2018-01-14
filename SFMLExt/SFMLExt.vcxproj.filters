@@ -4,21 +4,30 @@
     <Filter Include="Events">
       <UniqueIdentifier>{d08b9815-050e-4bac-bd1d-56e5b9449b3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{13a9b153-ff85-4885-bc1a-7831c0de9350}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Events\eventhandler.cpp">
+    <ClInclude Include="Include\Logging\log.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Events\eventhandler.h">
       <Filter>Events</Filter>
-    </ClCompile>
-    <ClCompile Include="Events\eventsystem.cpp">
+    </ClInclude>
+    <ClInclude Include="Include\Events\eventsystem.h">
       <Filter>Events</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Events\eventhandler.h">
+    <ClCompile Include="Source\Events\eventhandler.cpp">
       <Filter>Events</Filter>
-    </ClInclude>
-    <ClInclude Include="Events\eventsystem.h">
+    </ClCompile>
+    <ClCompile Include="Source\Events\eventsystem.cpp">
       <Filter>Events</Filter>
-    </ClInclude>
+    </ClCompile>
+    <ClCompile Include="Source\Logging\log.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
