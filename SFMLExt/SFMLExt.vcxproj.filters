@@ -6,18 +6,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="eventsystem.cpp">
+    <ClCompile Include="Events\eventhandler.cpp">
       <Filter>Events</Filter>
     </ClCompile>
-    <ClCompile Include="eventhandler.cpp">
+    <ClCompile Include="Events\eventsystem.cpp">
       <Filter>Events</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="eventsystem.h">
+    <ClInclude Include="Events\eventhandler.h">
       <Filter>Events</Filter>
     </ClInclude>
-    <ClInclude Include="eventhandler.h">
+    <ClInclude Include="Events\eventsystem.h">
       <Filter>Events</Filter>
     </ClInclude>
   </ItemGroup>
