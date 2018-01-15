@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cycle\cycle.cpp" />
     <ClCompile Include="Events\eventhandler.cpp" />
     <ClCompile Include="Events\eventsystem.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cycle\cycle.h" />
     <ClInclude Include="Events\eventhandler.h" />
     <ClInclude Include="Events\eventsystem.h" />
   </ItemGroup>

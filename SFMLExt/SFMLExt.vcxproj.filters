@@ -4,6 +4,9 @@
     <Filter Include="Events">
       <UniqueIdentifier>{d08b9815-050e-4bac-bd1d-56e5b9449b3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Cycle">
+      <UniqueIdentifier>{39d891a4-7002-4e7f-8661-fd699886808d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Events\eventhandler.cpp">
@@ -12,6 +15,9 @@
     <ClCompile Include="Events\eventsystem.cpp">
       <Filter>Events</Filter>
     </ClCompile>
+    <ClCompile Include="Cycle\cycle.cpp">
+      <Filter>Cycle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Events\eventhandler.h">
@@ -19,6 +25,9 @@
     </ClInclude>
     <ClInclude Include="Events\eventsystem.h">
       <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Cycle\cycle.h">
+      <Filter>Cycle</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
