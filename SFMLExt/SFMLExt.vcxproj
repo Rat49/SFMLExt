@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClInclude Include="Include\Events\eventhandler.h" />
     <ClInclude Include="Include\Events\eventsystem.h" />
+    <ClInclude Include="Include\Input\userinput.h" />
     <ClInclude Include="Include\Logging\log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Events\eventhandler.cpp" />
     <ClCompile Include="Source\Events\eventsystem.cpp" />
+    <ClCompile Include="Source\Input\userinput.cpp" />
     <ClCompile Include="Source\Logging\log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

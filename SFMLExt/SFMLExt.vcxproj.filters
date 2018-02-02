@@ -7,6 +7,9 @@
     <Filter Include="Logging">
       <UniqueIdentifier>{13a9b153-ff85-4885-bc1a-7831c0de9350}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{ea72c909-541e-4e4b-ad1d-4aed6014df1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\Logging\log.h">
@@ -18,6 +21,9 @@
     <ClInclude Include="Include\Events\eventsystem.h">
       <Filter>Events</Filter>
     </ClInclude>
+    <ClInclude Include="Include\Input\userinput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Events\eventhandler.cpp">
@@ -28,6 +34,9 @@
     </ClCompile>
     <ClCompile Include="Source\Logging\log.cpp">
       <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\userinput.cpp">
+      <Filter>Input</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
